@@ -1,0 +1,50 @@
+.info-card {
+  /* height: 100%; */
+  width: 100%;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.info-card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-card-image {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-card-container {
+  flex-basis: 75%;
+  padding: 0.7rem;
+}
+
+.info-card .info-card-title {
+  font-size: 1.37rem;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* margin: 30px auto 0px; */
+}
+
+.info-card .info-card-content {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.info-card-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.125rem;
+}
+.info-card-location {
+  margin: 10px 0px;
+}
+/*    Calender    */
+
+/* view Offers end */

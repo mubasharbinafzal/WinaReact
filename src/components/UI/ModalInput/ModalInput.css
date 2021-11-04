@@ -1,0 +1,49 @@
+.modal-input {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.modal-input input {
+  width: 100%;
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid #f7c40d;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+.modal-input input::placeholder {
+  color: #9a9a9a;
+}
+
+.modal-input input:focus,
+.modal-input input:hover {
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid #f7c40d;
+  font-size: 1.2rem;
+}
+
+/*  */
+
+.modal-select {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.modal-select select {
+  width: 100%;
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid #f7c40d;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+.modal-select select::placeholder {
+  color: #9a9a9a;
+}
+
+.modal-select select:focus,
+.modal-select select:hover {
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid #f7c40d;
+  font-size: 1.2rem;
+}

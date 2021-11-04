@@ -1,0 +1,3695 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+html {
+  font-size: 100%;
+}
+.App {
+  height: 100vh;
+  width: 100%;
+  /* overflow: hidden; */
+}
+/* p {
+  margin-bottom: 0rem ;
+} */
+
+/*  ===============================================
+                    STUDENT MODAL 
+    ===========================================  */
+
+.student-modal .modal-dialog {
+  width: 80% !important;
+  max-width: 80% !important;
+  /* padding-bottom: 5rem; */
+  height: 100%;
+  min-height: 100% !important;
+  margin: auto !important;
+}
+
+.student-modal .modal-header .close {
+  padding-top: 3rem;
+  padding-right: 2.7rem;
+  font-size: 2.75rem;
+  font-weight: 300;
+  color: #454545;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-social-btn {
+  color: #fff;
+  font-size: 1.5rem !important;
+  margin-top: 5rem;
+  cursor: pointer;
+  flex-basis: 50%;
+  padding: 0.8rem;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: flex-start;
+}
+.modal-facebook-btn {
+  background-color: #26468b;
+  border-radius: 2.5rem 0 0 2.5rem;
+}
+.modal-google-btn {
+  background-color: #f44336;
+  border-radius: 0 2.5rem 2.5rem 0;
+}
+.modal-social-icon {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.modal-social-icon-google {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.student-modal .modal-content {
+  padding-bottom: 3rem;
+}
+.student-modal .modal-sub-heading {
+  font-size: 1.5rem;
+  color: #454545;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.student-modal .Login .forgetpassword a {
+  font-size: 1.12rem;
+  color: #454545;
+}
+.student-modal .modal-button {
+  text-align: center;
+  width: 100%;
+  background-color: #2879d9;
+  border-radius: 2.6rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.56rem;
+  font-weight: bold;
+}
+.student-modal .modal-body .heading {
+  font-size: 3rem;
+}
+.modal-register-btn {
+  margin-top: 6.4rem;
+}
+
+.student-modal .modal-header {
+  padding: 0px;
+  border-bottom: none;
+}
+.student-modal .modal-header .close:focus {
+  border: none;
+  outline: none;
+}
+
+.student-modal .modal-body {
+  padding: 0px;
+}
+.student-modal .modal-body .Login {
+  padding: 0px 5rem 0px 4rem;
+}
+
+.student-modal .modal-body .Login .email {
+  margin-bottom: 10px;
+}
+
+.modal-left-side {
+  flex-basis: 50%;
+}
+.modal-right-side {
+  flex-basis: 50%;
+}
+.student-modal .Login .forgetpassword {
+  padding-top: 10px;
+}
+
+.modal-social-buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.student-modal .Login .faceBookGoogleGroup .two {
+  border-radius: 0px 41px 41px 0px;
+  background-color: #f44336;
+  border: none;
+}
+
+.student-modal .modal-body .Register {
+  padding: 0px 72px 0px 66px;
+  border-left: 1px solid #f7c40d;
+}
+
+.student-modal .modal-body .Register .studentRegisterbtn {
+  padding-bottom: 59px;
+  border-bottom: 1px solid #f7c40d;
+}
+.student-modal .modal-body .Register .studentRegister {
+  font-size: 25px;
+  color: #454545;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 19px;
+}
+
+.student-modal .modal-body .Register button {
+  width: 100%;
+  height: 65px;
+  font-weight: bold;
+  border: none;
+  font-size: 25px;
+  background-color: #2879d9;
+  color: white;
+  border-radius: 41px;
+}
+.student-modal .modal-body .Register .one {
+  margin-bottom: 34px;
+}
+/* Student login Modal  End*/
+
+/* student Registeration Modal  Start*/
+.studentRegisterModal .modal-dialog {
+  max-width: 1462px;
+  margin: 101px auto 0px;
+}
+.studentRegisterModal .modal-header .close {
+  padding-top: 39px;
+  padding-right: 35px;
+  font-size: 44px;
+  font-weight: 300;
+  color: #454545;
+}
+
+.studentRegisterModal .modal-header {
+  padding: 0px;
+  border-bottom: none;
+}
+.studentRegisterModal .modal-header .close:focus {
+  border: none;
+  outline: none;
+}
+
+.studentRegisterModal .modal-body {
+  padding: 0px;
+}
+.studentRegisterModal .modal-body .Login {
+  padding: 0px 72px 0px 66px;
+}
+
+.studentRegisterModal .modal-body .Login .heading {
+  font-size: 45px;
+}
+
+.studentRegisterModal .modal-body .Login .email {
+  margin-bottom: 10px;
+}
+.studentRegisterModal .Login .login_btn .login_btn_ {
+  margin-top: 95px;
+  width: 100%;
+  background-color: #2879d9;
+  border-radius: 41px;
+  color: white;
+  height: 65px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.studentRegisterModal .Login .forgetpassword {
+  padding-top: 10px;
+}
+.studentRegisterModal .Login .forgetpassword a {
+  font-size: 18px;
+  color: #454545;
+}
+.studentRegisterModal .Login .faceBookGoogleGroup button {
+  width: 293px;
+  height: 65px;
+  font-weight: bold;
+  border-radius: 41px 0px 0px 41px;
+  margin-bottom: 82px;
+  margin-top: 109px;
+  border: none;
+  font-size: 25px;
+}
+.studentRegisterModal .Login .faceBookGoogleGroup .one {
+  border-radius: 41px 0px 0px 41px;
+  background-color: #26468b;
+  border: none;
+}
+.studentRegisterModal .Login .faceBookGoogleGroup .two {
+  border-radius: 0px 41px 41px 0px;
+  background-color: #f44336;
+  border: none;
+}
+.studentRegisterModal .modal-content {
+}
+.studentRegisterModal .modal-body .Register {
+  padding: 0px 72px 0px 66px;
+  border-left: 1px solid #f7c40d;
+}
+.studentRegisterModal .modal-body .Register .heading {
+  font-size: 45px;
+}
+.studentRegisterModal .modal-body .Register .textfield {
+  margin-bottom: 17px;
+}
+.studentRegisterModal .modal-body .Register .studentRegisterbtn {
+  padding-top: 78px;
+}
+.studentRegisterModal .modal-body .Register .studentRegister {
+  font-size: 25px;
+  color: #454545;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 19px;
+}
+.studentRegisterModal .modal-body .Register .BUSINESSRegister {
+  font-size: 25px;
+  color: #454545;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.studentRegisterModal .modal-body .Register button {
+  width: 100%;
+  height: 65px;
+  font-weight: bold;
+  border: none;
+  font-size: 25px;
+  background-color: #2879d9;
+  color: white;
+  border-radius: 41px;
+}
+.studentRegisterModal .modal-body .Register .one {
+  margin-bottom: 34px;
+}
+/*  student Registeration Modal End   */
+.HomePagefontStyle {
+  font-family: "Lato", sans-serif !important;
+}
+
+/* ============================================
+                    NAVBAR
+  =========================================== */
+.homeNavBar {
+  width: 100%;
+  height: 10vh;
+  background-color: #fff !important ;
+  padding: 0rem 0rem !important;
+  box-shadow: none !important;
+}
+.homeNavBar .navbar-collapse {
+  z-index: 1;
+  padding-right: 2rem;
+}
+.homeNavBar .navbar-brand {
+  padding-left: 2rem;
+}
+.homeNavBar .navbar-toggler {
+  padding-right: 2rem;
+}
+
+.navbar-image {
+  width: 10rem;
+}
+
+.homeNavBar .navbar-left-link {
+  font-size: 1.375rem !important;
+  font-weight: 400 !important;
+  padding: 0rem 1rem !important;
+  align-items: center !important;
+  display: flex !important;
+}
+.navbar-right-link {
+  border-radius: 41px !important;
+  color: #fff !important;
+  padding: 0.5rem 2rem !important;
+  background-color: #2879d9 !important;
+  font-size: 1.375rem !important;
+  margin: 0rem 1rem !important;
+  align-items: center !important;
+  display: flex !important;
+}
+.navbar-right-link-end {
+  border-radius: 41px !important;
+  color: #2879d9 !important;
+  padding: 0.5rem 1.5rem !important;
+  background-color: #fff !important;
+  font-size: 1.375rem !important;
+  border: 1px solid #2879d9;
+  margin-left: 1rem !important;
+  align-items: center !important;
+  display: flex !important;
+  margin-right: 1rem !important;
+}
+/* ============================================
+                    NAVBAR END
+  =========================================== */
+
+/* ============================================
+                     HOME
+  =========================================== */
+
+/*          Home          */
+.homeBackground {
+  background-image: url(../images/home_background.png);
+  background-repeat: no-repeat;
+  height: 87vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+}
+
+.homebackground-text {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  transform: translate(-4%, -50%);
+}
+.homeBackground h1 {
+  font-size: 4.25rem;
+  color: white;
+  font-weight: 900;
+}
+.homeBackground p {
+  font-size: 2.3125rem;
+  font-weight: 400;
+  color: white;
+}
+/*            Home End           */
+
+/*            Home Cards           */
+.post_mobile-view-content .post_icons {
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  width: 17rem;
+  padding-top: 1rem;
+  padding-bottom: 0.6rem;
+  height: 11rem;
+  gap: 10px;
+  font-size: 1.375rem;
+}
+.homeBackground .post_icons img {
+  height: 61px;
+}
+.homeBackground .post_icons .label {
+  font-size: 10px;
+  font-weight: bold;
+}
+.homeBackground .post_icons a {
+  color: #454545;
+}
+.collapseMenu {
+  background-color: #fafafa;
+}
+.collapseMenu .card-body {
+  width: 100%;
+  background-color: #fafafa;
+}
+.collapseMenu .card-header {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50% !important;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  top: -60px;
+  right: 0px;
+  left: 0px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collapseMenu .card-header .btn.focus,
+.collapseMenu .card-header .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.collapseMenu .card-header button {
+  padding: 0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+.card-header button i {
+  font-size: 6rem;
+  color: #454545;
+}
+.collapseMenu .accordion > .card {
+  overflow: visible;
+  border: none;
+  background-color: #fafafa;
+}
+.post_mobile-view {
+  /* width: 1070px; */
+  margin: auto;
+  width: 100%;
+  padding: 10rem 5rem;
+}
+.post_mobile-view-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+}
+/*            Home Cards End          */
+
+/* ============================================
+                     HOME END
+  =========================================== */
+
+/* ============================================
+                     STUDENT DASHBOARD
+  =========================================== */
+
+.dashbord {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Dashbord  structure start  */
+.dashbordMain {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+/* .dashbordMain .width-col-1 {
+  max-width: 140px;
+} */
+.dashbordMain .main-coloum {
+  background-color: #2879d9;
+  border-radius: 1.3125rem 0px 0px 1.3125rem;
+  padding-top: 1.3rem;
+  flex-basis: 7%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.main-column-2 {
+  flex-basis: 92%;
+}
+.dashbordMain .main-coloum .nav-item {
+  padding-top: 3rem;
+}
+.dashbordMain .main-coloum .nav-item .nav-link {
+  padding: 0rem !important;
+}
+.dashbordMain .main-coloum img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  /* width: 1rem; */
+}
+.dashbordMain .main-coloum .label {
+  color: white;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  text-align: center;
+}
+.dashbordMain .main-coloum .nav-pills .nav-link .showonactive {
+  display: none;
+}
+.dashbordMain .main-coloum .nav-pills .nav-link.active {
+  color: #fff;
+  background-color: transparent;
+}
+.dashbordMain .main-coloum .nav-pills .nav-link.active .showonactive {
+  display: block;
+}
+.dashbordMain .main-coloum .nav-pills .nav-link.active .hideOnactive {
+  display: none;
+}
+
+.dashbord .width-col-2 {
+  padding-left: 0;
+}
+.dashbord .dashbordLayout {
+  flex-basis: 80%;
+  height: 100%;
+  padding: 1rem 1.6rem 0% 3rem;
+}
+.dashbord .dashbord-column {
+  border: 1px solid #e6e6e6;
+  border-radius: 0px 6px 6px 0px;
+  height: 100%;
+  flex-basis: 20%;
+  position: relative;
+}
+.dashbord .dashbordLabel {
+  width: 80%;
+  padding: 1.2rem 1rem;
+  background-color: #f6c40d;
+  border-radius: 6px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 2rem auto 3rem;
+}
+/* .dashbord .nav-item {
+  line-height: 3rem;
+} */
+.dashbord .nav-item .nav-link {
+  border-left: 5px solid transparent;
+  color: #454545;
+  font-size: 1.125rem;
+  border-radius: 0px;
+  margin: 0.8rem 0px;
+}
+.dashbord .dashbord-column .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent;
+  color: #f6c40d;
+  border-left: 5px solid #f6c40d;
+  border-radius: 0px;
+  /* line-height: 40px; */
+  font-size: 1.125rem;
+}
+
+/*    Sidebar bottom link   */
+.signoutLabel {
+  border-left: 5px solid transparent;
+  border-radius: 0px;
+  margin: 0.7rem 0px;
+  position: absolute;
+  bottom: 20px;
+  left: -5px;
+}
+.signoutLabel a {
+  color: #454545;
+  font-size: 1.125rem;
+  text-decoration: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.signoutLabel a img {
+  height: 1.5rem;
+}
+/*    Sidebar bottom link End  */
+
+.diplomaSchool .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.diplomaSchoolBox {
+  height: 100%;
+  width: 100%;
+}
+.offer-tab-3-perc {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  display: inline-block;
+  background-color: #3cbf31;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.publishBox .publish .description label {
+  padding-left: 1rem !important;
+}
+
+/*  ==========================================================
+                          Layout Children
+    =======================================================  */
+
+/*      Layout Children Content   */
+.generalInformation {
+  height: 10%;
+  width: 100%;
+  padding: 0.7rem 0rem;
+  padding-right: 2rem;
+}
+.children-tab-container {
+  height: 90%;
+  width: 100%;
+}
+
+.children-tab-container .tab-content {
+  height: 90%;
+  overflow: hidden;
+}
+
+/*      Layout Searchbar   */
+.generalInformation .search_bar {
+  flex-basis: 70%;
+  height: 100%;
+}
+.generalInformation .search_bar .input-group {
+  height: 100%;
+  width: 100%;
+}
+.input-group-text {
+  border: none !important;
+  border-radius: 7px 0px 0px 7px;
+}
+.generalInformation .search_bar .input-group-text {
+  background-color: #f5f5f5;
+  font-size: 1.4rem;
+  padding: 0px 0.5rem 0px 3rem;
+}
+.generalInformation .search_bar input {
+  background-color: #f5f5f5;
+  border-left: none;
+  font-size: 1.12rem;
+  font-weight: 500;
+  color: #9aaabf;
+  border-radius: 0.25rem;
+  height: 100%;
+}
+.generalInformation .header-profile .profilePic {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 2.2rem;
+}
+.generalInformation .search_bar .fa-search {
+  color: #9aaabf;
+}
+.generalInformation .search_bar .form-control:focus,
+.generalInformation .search_bar .input-group-text:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+  border-left: none;
+  outline: none;
+}
+.generalInformation .search_bar .input-group-prepend:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.generalInformation .header-profile {
+  flex-basis: 30%;
+  text-align: right;
+}
+
+/*  =================================================
+                    TABS STYLING
+    =============================================== */
+.custom-tabs .nav-item {
+  border-color: #2879d9 !important;
+  font-size: 1.25rem;
+  color: #454545;
+  border-radius: 2.56rem;
+  border: 1px solid #2879d9;
+  border-top-left-radius: 2.56rem !important;
+  border-top-right-radius: 2.56rem !important;
+  border-bottom-left-radius: 2.56rem !important;
+  border-bottom-right-radius: 2.56rem !important;
+  padding: 0.8rem 3rem;
+  text-align: center;
+}
+
+.custom-tabs .nav-item:hover {
+  border: 1px solid #2879d9;
+}
+.custom-tabs .nav-item.show .nav-link,
+.custom-tabs .nav-link.active {
+  font-size: 1.25rem;
+  color: #fff !important;
+  border-radius: 2.56rem;
+  border-color: #2879d9 !important;
+  border: 1px solid #707070;
+  background: #2879d9 !important;
+
+  padding: 0.8rem 3rem;
+  text-align: center;
+}
+
+/*  =================================================
+                    TABS STYLING END  
+    =============================================== */
+
+/*      Layout Searchbar End   */
+
+/* Dashbord  structure*/
+
+/*profile section*/
+.Profile {
+  border: none;
+}
+.upper-nav {
+  display: flex !important;
+  justify-content: flex-start !important;
+  gap: 1.9rem;
+  align-items: center;
+}
+.upper-nav.nav.nav-tabs {
+  height: 10%;
+}
+
+/*profile section End */
+
+/*  ===================================================
+                STUDENT GENERAL INFORMATION
+    ================================================  */
+.genProfile {
+  height: 100%;
+  width: 100%;
+}
+.genProfileBox {
+  height: 100%;
+  width: 100%;
+  margin-top: 2.3rem;
+}
+.genProfileBox .genProfile {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  height: 95%;
+  overflow: auto;
+  padding: 1.2rem;
+  width: 94%;
+  position: relative;
+}
+.genProfileBox .genProfile .profileImage {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2.2rem;
+}
+.genProfileBox .genProfile .profileImage img {
+  width: 100%;
+  height: 100%;
+}
+.genProfileBox .genProfile .profilename {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #454545;
+}
+.genProfileBox .genProfile .profileProfession {
+  font-size: 1.12rem;
+}
+.genProfileBox .genProfile .generalDescription {
+  font-size: 1.37rem;
+  font-weight: bold;
+  padding-top: 4rem;
+  padding-bottom: 1.2rem;
+}
+.genProfileBox .genProfile .description {
+  font-size: 1.12rem;
+  color: #454545;
+  padding-bottom: 3rem;
+}
+.genProfileBox .genProfile .professionalNetwork {
+  font-size: 1.37rem;
+  font-weight: bold;
+  color: #454545;
+  padding-bottom: 5px;
+}
+.genProfileBox .genProfile .PLinks {
+  list-style: none;
+  padding-left: 0px;
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.genProfileBox .genProfile .PLinks li {
+  display: inline;
+  font-size: 0.93rem;
+  color: #454545;
+  font-weight: 600;
+}
+.genProfileBox .genProfile .PLinks li img {
+  width: 26px;
+  height: 26px;
+  margin-right: 12px;
+}
+.genProfileBox .genProfile .PLinks li a {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4a8ba8;
+  padding-left: 8px;
+}
+.genProfileBox .genProfile .edit_icons {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.genProfileBox .genProfile .edit_icons img {
+  width: 1.5rem;
+}
+/*  ======================================================
+                STUDENT GENERAL INFORMATION END
+    ===================================================  */
+
+/*  ======================================================
+                      CUSTOM MODAL
+    =================================================== */
+
+/*      Custom Modal small    */
+.custom-modal .modal-dialog {
+  width: 80% !important;
+  max-width: 80% !important;
+  /* padding-bottom: 3rem; */
+  height: 100%;
+  min-height: 100% !important;
+  margin: auto !important;
+}
+.custom-modal .modal-content {
+  padding: 3rem;
+}
+.custom-modal .close {
+  padding-top: 3rem;
+  padding-right: 2.7rem;
+  font-size: 2.75rem;
+  font-weight: 300;
+  color: #454545;
+  display: flex;
+  justify-content: flex-end;
+}
+.custom-modal .close:focus {
+  border: none;
+  outline: none;
+}
+/*      Custom Modal small End    */
+
+/*        Custom Modal Big         */
+.custom-modal-big .modal-dialog {
+  width: 90% !important;
+  max-width: 90% !important;
+  height: 100%;
+  min-height: 100% !important;
+  margin: auto !important;
+}
+.custom-modal-big .modal-content {
+  padding: 3rem;
+}
+/*        Custom Modal Big End     */
+
+/*  ======================================================
+                   CUSTOM MODAL END
+    =================================================== */
+
+/* diplomaSchoolBox */
+.diplomaSchoolBox .diplomaSchool {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 1.7rem;
+  margin-top: 2.2rem;
+  width: 95%;
+  height: 90%;
+  position: relative;
+  overflow: auto;
+}
+.diplomaSchool .modal-icon {
+  position: absolute;
+  right: 2.2rem;
+
+  cursor: pointer;
+}
+.diplomaSchoolBox .diplomaSchool .diplomaImage {
+  width: 84px;
+  height: 84px;
+  margin: 48px auto 0px;
+}
+.diplomaSchoolBox .diplomaSchool .diplomaImage img {
+  width: 100%;
+  height: 100%;
+}
+.diplomaSchoolBox .diplomaSchool .schoolheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 49px auto 0px;
+}
+.diplomaSchoolBox .diplomaSchool .duration {
+  line-height: 21px;
+}
+.diplomaSchoolBox .diplomaSchool .description {
+  width: 880px;
+  margin-top: 22px;
+}
+.diplomaSchoolBox .diplomaSchool .edit_icons {
+  position: absolute;
+  right: 10px;
+}
+.diplomaSchoolBox .diplomaSchool hr {
+  background-color: #f7c40d;
+  margin-top: 30px;
+}
+/* diplomaSchoolBox END*/
+
+/*schoolDiplomaModal */
+
+.schoolDiplomaModal .modal-header {
+  border-bottom: none;
+  padding-top: 0px;
+}
+.schoolDiplomaModal .modal-header .close {
+  margin-right: -3rem;
+  margin-top: -3rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #454545;
+}
+.schoolDiplomaModal .modal-header .close:focus {
+  border: none;
+  outline: none;
+}
+.schoolDiplomaModal .modal-title {
+  color: #454545;
+  font-size: 2.8rem;
+  font-weight: bold;
+  border-bottom: 1px solid #f7c40d;
+}
+.schoolDiplomaModal .modal-body {
+  padding-top: 3rem;
+}
+.schoolDiplomaModal .modal-body .schoolName .MuiInputBase-root {
+  border-radius: 50px !important;
+  border: 1px solid #2879d9;
+}
+.schoolDiplomaModal .modal-body .schoolName .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.schoolDiplomaModal
+  .modal-body
+  .schoolName
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.schoolDiplomaModal
+  .modal-body
+  .schoolName
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.schoolDiplomaModal .modal-body .schoolName .MuiSvgIcon-root:focus {
+  color: white;
+}
+/* .schoolDiplomaModal .modal-body .schoolName .MuiInputBase-root:hover {
+  border: none !important;
+  outline: none !important;
+} */
+.schoolDiplomaModal .modal-body .schoolName .MuiFormControl-fullWidth {
+  min-width: 20rem;
+  height: 3.7rem;
+  margin-bottom: 3rem;
+  width: auto;
+}
+.schoolDiplomaModal .modal-body .startDate .MuiFormControl-fullWidth,
+.schoolDiplomaModal .modal-body .endDate .MuiFormControl-fullWidth {
+  min-width: 16rem;
+  height: 4.3rem;
+  width: auto;
+}
+.schoolDiplomaModal .modal-body .startDate label,
+.schoolDiplomaModal .modal-body .endDate label {
+  font-size: 1.12rem;
+  color: #8d8d8d;
+}
+
+/* .schoolDiplomaModal .modal-body .startDate .MuiInputBase-root:hover,
+.schoolDiplomaModal .modal-body .endDate .MuiInputBase-root:hover {
+  border: none !important;
+  outline: none !important;
+} */
+.schoolDiplomaModal .modal-body .startDate .MuiInputBase-root,
+.schoolDiplomaModal .modal-body .endDate .MuiInputBase-root {
+  border-radius: 50px !important;
+  border: 1px solid #2879d9;
+}
+
+.schoolDiplomaModal .modal-body .startDate .MuiInputBase-root:focus-within,
+.schoolDiplomaModal .modal-body .endDate .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.schoolDiplomaModal
+  .modal-body
+  .startDate
+  .MuiInputBase-root:focus-within
+  input,
+.schoolDiplomaModal .modal-body .endDate .MuiInputBase-root:focus-within input {
+  color: white;
+}
+.schoolDiplomaModal
+  .modal-body
+  .startDate
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root,
+.schoolDiplomaModal
+  .modal-body
+  .endDate
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+
+.schoolDiplomaModal .modal-body .startDate {
+  float: left;
+  margin-right: 1.2rem;
+}
+.schoolDiplomaModal .modal-body .description {
+  margin-top: 1rem;
+}
+.schoolDiplomaModal .modal-body .description label {
+  color: #8d8d8d;
+  font-size: 1.37rem;
+}
+/* .schoolDiplomaModal .modal-body .description textarea {
+  border: 1px solid #454545;
+  border-radius: 10px;
+  margin-top: 6px;
+  font-size: 1.37rem;
+} */
+.schoolDiplomaModal .modal-body .Enregistrer {
+  border-radius: 2.5rem;
+  margin-top: 3rem;
+  width: 14rem;
+  height: 4rem;
+  margin-left: auto;
+  display: block;
+  font-size: 1.37rem;
+}
+.schoolDiplomaModal .modal-body .schoolName .MuiSvgIcon-root {
+  display: none;
+}
+/*schoolDiplomaModal End*/
+
+/*  ============================================================
+                        CUSTOM BOX
+    ========================================================== */
+.custom-box {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 3rem 2.1rem 2.1rem 3rem;
+  width: 95%;
+  margin-top: 2rem;
+  height: 94%;
+  overflow: auto;
+}
+/*  ============================================================
+                        CUSTOM BOX END
+    ========================================================== */
+
+/* .ProfessionalcareerBox */
+.ProfessionalcareerBox {
+  height: 100%;
+  width: 100%;
+}
+.ProfessionalcareerBox .Professionalcareer {
+  border: 1px solid rgba(112, 112, 112, 20%);
+  border-radius: 5px;
+  padding: 1.7rem;
+  margin-top: 2rem;
+  width: 95%;
+  height: 90%;
+  overflow: auto;
+  position: relative;
+}
+.Professionalcareer .modal-icon {
+  position: absolute;
+  right: 1.9rem;
+  /* width: 2rem; */
+  cursor: pointer;
+}
+
+.ProfessionalcareerBox .Professionalcareer .row {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  width: 100%;
+}
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+.ViewOffersBox {
+  height: 100%;
+  width: 100%;
+}
+.ViewOffersBox .offers .OffersImage {
+  width: 150px;
+  height: 150px;
+  margin: 68px auto 0px;
+}
+.ViewOffersBox .offers .OffersImage img {
+  width: 100%;
+  height: 100%;
+}
+.ViewOffersBox .offers .schoolheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px auto 0px;
+}
+.ViewOffersBox .offers .duration {
+  line-height: 21px;
+  margin-top: 15px;
+}
+.ViewOffersBox .offers .description {
+  width: 880px;
+  margin-top: 22px;
+}
+.ViewOffersBox .offers .edit_icons {
+  position: absolute;
+  right: 31px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ViewOffersBox .offers hr {
+  background-color: #f7c40d;
+  margin: 66px 41px 0px;
+}
+.ViewOffersBox .offers .location {
+  margin: 8px 0px;
+}
+.ViewOffersBox .offers .fa-map-marker {
+  padding-right: 7px;
+  font-size: 18px;
+}
+.ViewOffersBox .offers .OfferDomain {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.ViewOffersBox .offers .OfferDecision {
+  padding-top: 20px;
+}
+.ViewOffersBox .offers .OfferDomain .col-lg-3,
+.col-lg-4,
+.col-lg-2,
+.col-lg-5 {
+  padding: 0px !important;
+}
+
+.ViewOffersBox .offers .OfferDomain .button {
+  color: #2879d9;
+  border: 1px solid #2879d9;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 45px;
+  font-size: 15px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 500;
+}
+
+/* button label */
+.ViewOffersBox .offers .OfferDomain .button .MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  /* padding-top: 1rem; */
+}
+
+/*  */
+
+.ViewOffersBox .offers .OfferDecision .button1 {
+  background: #f6c40d;
+  color: #fff;
+  border: 1px solid #f6c40d;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 40px;
+  font-size: 18px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.ViewOffersBox .offers .OfferDecision .button2 {
+  background: #aaaaaa;
+  color: #fff;
+  border: 1px solid #aaaaaa;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 46px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 2.6rem;
+}
+.ViewOffersBox .offers .Suggestion .button1 {
+  background: #f6c40d;
+  color: #fff;
+  border: 1px solid #f6c40d;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 40px;
+  font-size: 18px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.ViewOffersBox .offers .Suggestion .button2 {
+  background: #3cbf31;
+  color: #fff;
+  border: 1px solid #3cbf31;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 58px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 1rem;
+}
+.research_tab_heading {
+  background-color: #f6c40d;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 41px;
+}
+.ViewOffersBox .offers .Suggestion {
+  padding-top: 20px;
+}
+.ViewOffersBox .offers .Suggestion .button3 {
+  background: #e52b2b;
+  color: #fff;
+  border: 1px solid #e52b2b;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 58px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 3rem;
+}
+
+/* offers section whole tabe */
+/* .ViewOffersBox .offers {
+  border: 1px solid rgba(112, 112, 112, 20%);
+
+  width: 100%;
+  overflow: auto;
+  height: 90%;
+  padding: 30px;
+} */
+.ViewOffersBox .offers .tabOffer {
+  margin-bottom: 50px;
+  background: #fafafa;
+  box-sizing: border-box;
+  position: relative;
+}
+.ViewOffersBox .offers .tabOffer .rightSection {
+  padding: 30px;
+  padding-top: 0px;
+}
+.ViewOffersBox .offers .tabOffer .OffersImage {
+  /* padding: 30px; */
+
+  box-sizing: border-box;
+}
+
+/* view Offers end */
+
+/* match Research */
+.matchResearch {
+  height: 100%;
+  width: 100%;
+}
+.matchResearch h5 {
+  font-size: 1.37rem;
+  font-weight: bold;
+}
+.carosoulProfileBox {
+  height: 90%;
+  width: 100%;
+}
+.carosoulProfileBox .genProfile .image-card-section {
+  width: 27rem;
+  height: 14rem;
+  overflow: hidden;
+  margin: 0px auto;
+  background: #f2f2f2;
+}
+.carosoulProfileBox .genProfile .image-card-section .profileImage {
+  width: 19rem;
+  height: 13rem;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.carosoulProfileBox .genProfile .MuiCardContent-root {
+  background: #2879d9 !important;
+  color: #fff;
+  padding-top: 0.6rem !important;
+}
+.carosoulProfileBox .genProfile .bottom-card-section {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.carosoulProfileBox .genProfile .bottom-card-section .DomainRow .div1 {
+  border: 1px solid #fff;
+  border-radius: 41px;
+  margin-left: 0rem;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  box-sizing: border-box;
+  height: 38px;
+}
+.carosoulProfileBox .genProfile .bottom-card-section .DomainRow .div2 {
+  border: 1px solid #fff;
+  border-radius: 41px;
+  margin-left: 0rem;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  box-sizing: border-box;
+  height: 38px;
+  margin-left: 0.4rem;
+}
+.carosoulProfileBox .genProfile .bottom-card-section .DomainRow .div1 p,
+.carosoulProfileBox .genProfile .bottom-card-section .DomainRow .div2 p {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.carosoulProfileBox .genProfile .makeStyles-root-1 {
+  max-width: 430px;
+  padding-bottom: 3rem;
+}
+.carosoulProfileBox .genProfile .bottom-card-section .mainDomainDiv {
+  width: 98%;
+  margin: 0 auto;
+}
+.carosoulProfileBox .genProfile .location i {
+  padding-right: 10px;
+}
+.carosoulProfileBox .genProfile .location {
+  margin-top: 0px !important;
+  padding-bottom: 20px;
+}
+.carosoulProfileBox .genProfile .MuiFab-primary {
+  color: #fff;
+  background-color: #3f51b5;
+  border: 0.3rem solid #fff;
+}
+.carosoulProfileBox .genProfile .MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 3.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+/* end */
+.carosoulProfileBox .genProfile .bottom-card-section h5 {
+  padding-bottom: 10px;
+}
+
+/* Hover,focus active */
+
+.ViewOffersBox .offers .OfferDomain .button:focus {
+  outline: none !important;
+}
+
+.ViewOffersBox .offers .OfferDecision .button1:focus {
+  outline: none !important;
+}
+.ViewOffersBox .offers .OfferDecision .button2:focus {
+  outline: none !important;
+}
+.ViewOffersBox .offers .OfferDecision .button3:focus {
+  outline: none !important;
+}
+.ViewOffersBox .offers .Suggestion .button1:focus {
+  outline: none !important;
+}
+.ViewOffersBox .offers .Suggestion .button2:focus {
+  outline: none !important;
+}
+.ViewOffersBox .offers .Suggestion .button3:focus {
+  outline: none !important;
+}
+/* end */
+
+/* ************* */
+/* ************* */
+/* ************* */
+/* ************* */
+/* ************* */
+
+/* Researched Job Offer */
+.ResearchBox .OffersImage {
+  width: 150px;
+  height: 150px;
+  margin: 68px auto 0px;
+}
+.ResearchBox .OffersImage img {
+  width: 100%;
+  height: 100%;
+}
+.ResearchBox .schoolheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px auto 0px;
+}
+.ResearchBox .duration {
+  line-height: 21px;
+  margin-top: 15px;
+}
+.ResearchBox .description {
+  width: 880px;
+  margin-top: 22px;
+}
+.ResearchBox .edit_icons {
+  position: absolute;
+  right: 31px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ResearchBox hr {
+  background-color: #f7c40d;
+  margin: 66px 41px 0px;
+}
+.ResearchBox .location {
+  margin-top: 8px;
+}
+.ResearchBox .fa-map-marker {
+  padding-right: 7px;
+  font-size: 18px;
+}
+.ResearchBox .OfferDomain {
+  padding-top: 0px;
+  padding-left: 10px;
+}
+.ResearchBox .OfferDecision {
+  padding-top: 20px;
+}
+.ResearchBox .OfferDomain .col-lg-3,
+.col-lg-4,
+.col-lg-2,
+.col-lg-5 {
+  padding: 0px !important;
+}
+
+.ResearchBox .OfferDomain .button {
+  color: #2879d9;
+  border: 1px solid #2879d9;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 45px;
+  font-size: 15px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 500;
+}
+
+/* button label */
+.ResearchBox .OfferDomain .button .MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  padding-top: 1rem;
+}
+
+/*  */
+
+.ResearchBox .OfferDecision .button1 {
+  background: #f6c40d;
+  color: #fff;
+  border: 1px solid #f6c40d;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 40px;
+  font-size: 18px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.ResearchBox .OfferDecision .button2 {
+  background: #aaaaaa;
+  color: #fff;
+  border: 1px solid #aaaaaa;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 46px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 2.6rem;
+}
+.ResearchBox .Suggestion .button1 {
+  background: #f6c40d;
+  color: #fff;
+  border: 1px solid #f6c40d;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 40px;
+  font-size: 18px;
+  height: 36px;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.ResearchBox .Suggestion .button2 {
+  background: #3cbf31;
+  color: #fff;
+  border: 1px solid #3cbf31;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 30px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 1rem;
+}
+.ResearchBox .Suggestion {
+  padding-top: 20px;
+}
+.ResearchBox .Suggestion .button3 {
+  background: #e52b2b;
+  color: #fff;
+  border: 1px solid #e52b2b;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 41px;
+  padding: 0px 58px;
+  font-size: 18px;
+  height: 36px;
+  margin-left: 3rem;
+}
+
+/* offers section whole tabe */
+.ResearchBox .tabOffer {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+.ResearchBox .tabOffer .rightSection {
+  padding: 30px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+.ResearchBox .tabOffer .OffersImage {
+  /* padding: 30px; */
+
+  box-sizing: border-box;
+}
+.ResearchBox .OfferDomain .button:focus {
+  outline: none !important;
+}
+
+.ResearchBox .OfferDecision .button1:focus {
+  outline: none !important;
+}
+.ResearchBox .OfferDecision .button2:focus {
+  outline: none !important;
+}
+.ResearchBox .OfferDecision .button3:focus {
+  outline: none !important;
+}
+.ResearchBox .Suggestion .button1:focus {
+  outline: none !important;
+}
+.ResearchBox .Suggestion .button2:focus {
+  outline: none !important;
+}
+.ResearchBox .Suggestion .button3:focus {
+  outline: none !important;
+}
+
+/* end */
+.ResearchBox .Suggestion .button2 .MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  padding-top: 1rem;
+}
+.ResearchBox .rightSection .heart_icons {
+  position: absolute;
+  right: 31px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #e52b2b;
+}
+.ResearchBox .rightSection .edit_icons {
+  position: absolute;
+  right: 80px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #8d8d8d;
+}
+/* Offers end */
+
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/*  */
+.ProfessionalcareerBox .Professionalcareer .diplomaImage {
+  width: 84px;
+  height: 84px;
+  margin: 48px auto 0px;
+}
+.ProfessionalcareerBox .Professionalcareer .diplomaImage img {
+  width: 100%;
+  height: 100%;
+}
+.ProfessionalcareerBox .Professionalcareer .schoolheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 49px auto 0px;
+}
+.ProfessionalcareerBox .Professionalcareer .duration {
+  line-height: 21px;
+}
+.ProfessionalcareerBox .Professionalcareer .description {
+  width: 880px;
+  margin-top: 22px;
+}
+.ProfessionalcareerBox .Professionalcareer .edit_icons {
+  position: absolute;
+  right: 31px;
+}
+.ProfessionalcareerBox .Professionalcareer hr {
+  background-color: #f7c40d;
+  margin: 30px 0px;
+}
+
+/* .ProfessionalcareerBox END*/
+
+/*CVOnline*/
+.CVOnlineBox {
+  height: 100%;
+  width: 100%;
+}
+
+.CVOnlineBox .CVOnline .profileImage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.CVOnlineBox .CVOnline .profileImage img {
+  width: 100%;
+
+  object-fit: cover;
+}
+.CVOnlineBox .CVOnline .profilename {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #454545;
+}
+.CVOnlineBox .CVOnline .profileProfession {
+  font-size: 1.125rem;
+  color: #454545;
+  line-height: 1.2rem;
+  padding-bottom: 2rem;
+}
+.CVOnlineBox .CVOnline .formation {
+  font-size: 1.37rem;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #f7c40d;
+  color: #2879d9;
+}
+.CVOnlineBox .CVOnline .companyNameH {
+  font-size: 1.37rem;
+  font-weight: bold;
+  padding-top: 1.1rem;
+}
+.CVOnlineBox .CVOnline .companyName {
+  font-size: 1.12rem;
+  font-weight: #454545;
+}
+.CVOnlineBox .CVOnline .companydate {
+  padding-bottom: 18px;
+  font-size: 0.87rem;
+  padding-top: 0.6rem;
+}
+.CVOnlineBox .CVOnline .companydateDuration {
+  padding-bottom: 1.12rem;
+  font-size: 0.87rem;
+}
+.CVOnlineBox .CVOnline .description {
+  font-size: 1.12rem;
+  color: #454545;
+  padding-bottom: 2.5rem;
+}
+.CVOnlineBox .CVOnline .professionalNetwork {
+  font-size: 1.37rem;
+  font-weight: bold;
+  color: #454545;
+  padding-bottom: 5px;
+}
+.CVOnlineBox .CVOnline .PLinks {
+  list-style: none;
+  padding-left: 0px;
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  width: 443px;
+  margin-top: 10px;
+}
+.CVOnlineBox .CVOnline .PLinks li {
+  display: inline;
+  font-size: 15px;
+  color: #454545;
+  font-weight: 600;
+}
+.CVOnlineBox .CVOnline .PLinks li img {
+  width: 26px;
+  height: 26px;
+  margin-right: 12px;
+}
+.CVOnlineBox .CVOnline .PLinks li a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4a8ba8;
+  padding-left: 8px;
+}
+.CVOnlineBox .CVOnline .edit_icons {
+  position: absolute;
+  right: 28px;
+}
+.CVOnlineBox .CVOnline .edit_icons img {
+  width: 1.5rem;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding: 0.5rem !important;
+}
+.importCV {
+  color: #fff;
+  display: inline-block;
+  border: none;
+  position: absolute;
+  top: 13.05%;
+  right: 28%;
+}
+.importCV .MuiButton-containedPrimary {
+  background-color: #f6c40d;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 2.56rem;
+  padding: 0.8rem 3rem;
+  text-transform: lowercase;
+  box-shadow: none;
+}
+#Profile-tab-importCV {
+  background-color: #f6c40d;
+  color: #fff;
+  border: none;
+}
+.importCV .MuiButton-containedPrimary:hover {
+  background-color: #f6c40d;
+  box-shadow: none;
+}
+.importCV .makeStyles-root-1 > * {
+  margin: 0px;
+}
+/*CVOnline END*/
+
+/* ====================================================
+               STUDENT ProfessionalCareerModal
+   ================================================== */
+.ProfessionalCareerModal {
+  position: relative;
+}
+.ProfessionalCareerModal .modal-header {
+  border-bottom: none !important;
+}
+.ProfessionalCareerModal .modal-header .close {
+  font-size: 3.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: #454545;
+}
+.ProfessionalCareerModal .modal-header .close:focus {
+  border: none;
+  outline: none;
+}
+.professional-modal-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+.ProfessionalCareerModal .modal-title {
+  color: #454545;
+  font-size: 2.8rem;
+  font-weight: bold;
+  border-bottom: 1px solid #f7c40d;
+}
+
+.ProfessionalCareerModal .modal-body .Job_title {
+  flex-basis: 30%;
+  padding: 2rem 1rem !important;
+  border-radius: 0.6rem;
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.ProfessionalCareerModal .modal-body .Job_title::placeholder {
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.ProfessionalCareerModal .modal-body .Job_title .MuiOutlinedInput-root {
+  border-radius: 0.6rem;
+}
+.ProfessionalCareerModal .modal-body .Type_of_employment {
+  flex-basis: 20%;
+}
+
+.ProfessionalCareerModal .modal-body .Type_of_employment .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Type_of_employment
+  .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Type_of_employment
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Type_of_employment
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Type_of_employment
+  .MuiSvgIcon-root:focus {
+  color: white;
+}
+
+.ProfessionalCareerModal .modal-body .Business {
+  flex-basis: 20%;
+}
+.ProfessionalCareerModal .modal-body .Business .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ProfessionalCareerModal .modal-body .Business .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Business
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Business
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .Business .MuiSvgIcon-root:focus {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .Business .MuiSvgIcon-root {
+  display: none;
+}
+.ProfessionalCareerModal .modal-body .Location {
+  flex-basis: 20%;
+}
+.ProfessionalCareerModal .modal-body .Location .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ProfessionalCareerModal .modal-body .Location .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Location
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .Location
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .Location .MuiSvgIcon-root:focus {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .Location .MuiSvgIcon-root {
+  display: none;
+}
+
+.professional-modal-second {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.ProfessionalCareerModal .modal-body .MuiCheckbox-colorPrimary.Mui-checked {
+  color: #2879d9;
+}
+.ProfessionalCareerModal .modal-body .position {
+  flex-basis: 30%;
+}
+.ProfessionalCareerModal .modal-body .position .MuiFormControlLabel-label {
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.ProfessionalCareerModal .modal-body .startEndDate {
+  flex-basis: 15%;
+}
+.ProfessionalCareerModal .modal-body .startEndDate .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .startEndDate
+  .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .startEndDate
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.ProfessionalCareerModal
+  .modal-body
+  .startEndDate
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .startEndDate .MuiSvgIcon-root:focus {
+  color: white;
+}
+.ProfessionalCareerModal .modal-body .description {
+  margin-top: 2rem;
+}
+.ProfessionalCareerModal .modal-body .description label {
+  color: #8d8d8d;
+  font-size: 1.37rem;
+}
+.ProfessionalCareerModal .modal-body .description textarea {
+  border: 1px solid #454545;
+  border-radius: 0.6rem;
+  margin-top: 0.4rem;
+}
+.ProfessionalCareerModal .modal-body .Enregistrer {
+  border-radius: 2.5rem;
+  margin-top: 2.5rem;
+  display: inline-block;
+  font-size: 1.37rem;
+}
+
+/* ====================================================
+               STUDENT ProfessionalCareerModal End
+   ================================================= */
+
+/*Skills Start*/
+.Skills {
+  border: none;
+}
+
+/* GeneralSkillsBox*/
+.GeneralSkillsBox {
+  height: 100%;
+  width: 100%;
+}
+/* .GeneralSkillsBox .GeneralSkills {
+  width: 100%;
+  height: 90%;
+  border: 1px solid rgba(112, 112, 112, 20%);
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 5px;
+} */
+
+.GeneralSkillsBox .GeneralSkills .edit_icons {
+  /* position: absolute;
+  right: 28px; */
+}
+
+.GSkillsBox {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  padding: 1.7rem;
+}
+/* .GeneralSkillsBox .GeneralSkills .GSkillsBox {
+  padding: 22px 85px 0px;
+} */
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .skills-heading {
+  font-size: 1.37rem;
+  color: #454545;
+  /* border-bottom: 1px solid #f7c40d; */
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .skills-heading-line {
+  background-color: #f7c40d;
+  height: 1px;
+  width: 70%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .skills .MuiFormControl-fullWidth {
+  max-width: 18rem;
+  margin-top: 3rem;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .skills .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.GeneralSkillsBox
+  .GeneralSkills
+  .GSkillsBox
+  .skills
+  .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.GeneralSkillsBox .GeneralSkills .skills .MuiInputBase-root:focus-within input {
+  color: white;
+}
+.GeneralSkillsBox
+  .GeneralSkills
+  .GSkillsBox
+  .skills
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .skills .MuiSvgIcon-root:focus {
+  color: white;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .description {
+  margin-top: 1.2rem;
+  /* font-size: 22px; */
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .description label {
+  color: #8d8d8d;
+  font-size: 1.37rem;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .description .form-group {
+  margin-bottom: 0px;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .description textarea {
+  border: 1px solid #454545;
+  border-radius: 0.6rem;
+  margin-top: 6px;
+  padding: 0.6rem;
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.GeneralSkillsBox
+  .GeneralSkills
+  .GSkillsBox
+  .description
+  textarea::placeholder {
+  color: #8d8d8d;
+}
+/* GeneralSkillsBox*/
+
+.custom-box-edit-icon {
+  width: 1.3rem;
+}
+/* SpecializedSkillsBox start */
+.SpecializedSkills {
+  height: 100%;
+  width: 100%;
+}
+.SpecializedSkillsBox .SpecializedSkills {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 1.5rem;
+  height: 90%;
+  margin-top: 30px;
+  width: 95%;
+}
+
+.SpecializedSkillsBox .SpecializedSkills .edit_icons {
+  position: absolute;
+  right: 28px;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox {
+  padding: 22px 85px 0px;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox .heading {
+  font-size: 22px;
+  color: #454545;
+  border-bottom: 1px solid #f7c40d;
+  width: 770px;
+}
+
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .SSkillsBox
+  .skills
+  .MuiFormControl-fullWidth {
+  max-width: 283px;
+  margin-top: 54px;
+}
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .SSkillsBox
+  .skills
+  .MuiInputBase-root {
+  border-radius: 50px !important;
+  border: 1px solid #2879d9;
+}
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .SSkillsBox
+  .skills
+  .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .skills
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .SSkillsBox
+  .skills
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.SpecializedSkillsBox
+  .SpecializedSkills
+  .SSkillsBox
+  .skills
+  .MuiSvgIcon-root:focus {
+  color: white;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox .description {
+  margin-top: 20px;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox .description label {
+  color: #8d8d8d;
+  font-size: 22px;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox .description .form-group {
+  margin-bottom: 0px;
+}
+.SpecializedSkillsBox .SpecializedSkills .SSkillsBox .description textarea {
+  border: 1px solid #454545;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+/*SpecializedSkillsBox End*/
+
+/* LanguagesBox start */
+.LanguagesBox {
+  width: 100%;
+  height: 100%;
+}
+.LanguagesBox .Languages {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 30px;
+  height: 90%;
+  overflow: auto;
+  width: 95%;
+}
+
+.LanguagesBox .Languages .edit_icons {
+  position: absolute;
+  right: 28px;
+}
+.LanguagesBox .Languages .LgBox {
+  padding: 22px 85px 0px;
+}
+.LanguagesBox .Languages .LgBox .heading {
+  font-size: 22px;
+  color: #454545;
+  border-bottom: 1px solid #f7c40d;
+  width: 770px;
+}
+.LanguagesBox .Languages .LgBox .skills {
+  display: flex;
+}
+.LanguagesBox .Languages .LgBox .skills .MuiFormControl-fullWidth {
+  width: 283px;
+  margin-top: 54px;
+  margin-right: 40px;
+}
+.LanguagesBox .Languages .LgBox .skills .MuiInputBase-root {
+  border-radius: 50px !important;
+  border: 1px solid #2879d9;
+}
+.LanguagesBox .Languages .LgBox .skills .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.LanguagesBox .Languages .skills .MuiInputBase-root:focus-within input {
+  color: white;
+}
+.LanguagesBox
+  .Languages
+  .LgBox
+  .skills
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.LanguagesBox .Languages .LgBox .skills .MuiSvgIcon-root:focus {
+  color: white;
+}
+.LanguagesBox .Languages .LgBox .description {
+  margin-top: 20px;
+}
+.LanguagesBox .Languages .LgBox .description label {
+  color: #8d8d8d;
+  font-size: 22px;
+}
+.LanguagesBox .Languages .LgBox .description .form-group {
+  margin-bottom: 0px;
+}
+.LanguagesBox .Languages .LgBox .description textarea {
+  border: 1px solid #454545;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+/*LanguagesBox End*/
+
+/*Skills End*/
+
+/* Researched Job Start*/
+
+.ResearchedJob {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+#ResearchedJob-tabpane-Research {
+  height: 100%;
+  width: 100%;
+}
+
+/* Research start */
+/* .ResearchBox {
+  border: 1px solid rgba(112, 112, 112, 20%);
+  border-radius: 5px;
+  padding: 50px;
+  width: 95%;
+  overflow: auto;
+  height: 95%;
+} */
+.ResearchBox .Research {
+  margin: 2rem 0;
+}
+.ResearchBox .Research .form-group {
+  margin-bottom: 0rem !important;
+}
+.ResearchBox .Research .Job_title .MuiTextField-root {
+  width: 492px;
+  height: 61px;
+  border-radius: 0.6rem;
+}
+.ResearchBox .Research .Job_title .MuiOutlinedInput-root {
+  border-radius: 0.6rem;
+}
+/* .ResearchBox .Research .col-6-width {
+  max-width: 517px;
+} */
+.ResearchBox .Research .Field .MuiFormControl-fullWidth {
+  /* max-width: 16rem; */
+}
+
+.ResearchBox .Research .Field .MuiInputBase-root:focus-within,
+.ResearchBox .Research .LevelOfStudy .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ResearchBox .Research .MuiInputBase-root:focus-within input {
+  color: #000;
+}
+.ResearchBox .Research .MuiInputBase-root:focus-within .MuiButtonBase-root {
+  color: #000;
+}
+.ResearchBox .Research .MuiSvgIcon-root:focus {
+  color: #000;
+}
+
+/*input */
+.ResearchBox .Research .levelofStudyBox .col-3-width {
+  max-width: 16rem;
+}
+.ResearchBox .Research .levelofStudyBox .MuiFormControl-fullWidth {
+  max-width: 15rem;
+}
+
+.ResearchBox .Research .Field .MuiInputBase-root,
+.ResearchBox .Research .LevelOfStudy .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ResearchBox .Research .Field .MuiInputBase-root:focus-within,
+.ResearchBox .Research .LevelOfStudy .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ResearchBox .Research .MuiInputBase-root:focus-within input {
+  color: #000;
+}
+.ResearchBox .Research .MuiInputBase-root:focus-within .MuiButtonBase-root {
+  color: #000;
+}
+.ResearchBox .Research .MuiSvgIcon-root:focus {
+  color: #000;
+}
+/*input */
+
+/*.LevelOfStudy start*/
+.ResearchBox .levelofStudyBox {
+  margin-bottom: 4.7rem;
+}
+.checkBoxes {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+  padding-right: 2rem;
+  align-items: center;
+  gap: 1.1rem;
+}
+.checkBoxes.row {
+  align-items: center;
+}
+.checkBoxes .form-check-input {
+  height: 1.12rem !important;
+  width: 1.12rem !important;
+}
+.checkBoxes .form-check-label {
+  padding-top: 2px;
+  padding-left: 0.5rem;
+  color: #454545 !important;
+  font-size: 1rem;
+}
+.jobIsProvided .form-check-input {
+  height: 1.9rem !important;
+  width: 1.37rem !important;
+}
+.jobIsProvided .form-check-label {
+  padding-top: 3px;
+  font-size: 1.37rem;
+  padding-left: 2rem;
+  color: #8d8d8d !important;
+}
+.ResearchBox .levelofStudyBox .col-3-width {
+  max-width: 17rem;
+}
+.ResearchBox .levelofStudyBox .LevelOfStudy .col-3-width {
+  max-width: 16rem;
+}
+.ResearchBox .levelofStudyBox .LevelOfStudy .MuiFormControl-fullWidth {
+  max-width: 14rem;
+}
+.ResearchBox .levelofStudyBox .Field .MuiInputBase-root,
+.ResearchBox .levelofStudyBox .LevelOfStudy .MuiInputBase-root {
+  border-radius: 3rem !important;
+  border: 1px solid #2879d9;
+}
+.ResearchBox .levelofStudyBox .LevelOfStudy .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.ResearchBox
+  .levelofStudyBox
+  .LevelOfStudy
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.ResearchBox
+  .levelofStudyBox
+  .LevelOfStudy
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.ResearchBox .levelofStudyBox .LevelOfStudy .MuiSvgIcon-root:focus {
+  color: white;
+}
+.ResearchBox .levelofStudyBox .LevelOfStudy label {
+  font-size: 1.12rem;
+  color: #8d8d8d;
+}
+/*.LevelOfStudy End */
+
+/* checkBoxes Start*/
+.ResearchBox .checkBoxes .alternationRhythm-width {
+}
+.ResearchBox .checkBoxes .alternationRhythm {
+  font-size: 1.37rem;
+  color: #454545;
+  padding-left: 0rem;
+  padding-top: 3px;
+}
+.sliderBox .makeStyles-input-21 {
+  top: 0rem !important;
+}
+
+/* .checkBoxes .oneBusinessWeekWidth {
+  min-width: 241px;
+} */
+/* .checkBoxes .oneSchoolWeekWidth {
+  min-width: 232px;
+}
+.checkBoxes .choicetwoWidth {
+  max-width: 113px;
+} */
+.ResearchBox .jobIsProvided {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.ResearchBox .jobIsProvided .MuiSvgIcon-root {
+  font-size: 1.9rem;
+}
+.ResearchBox .jobIsProvided .MuiCheckbox-root {
+  color: #454545;
+}
+/* checkBoxes End  */
+/*Research End*/
+
+/* Researched Job End*/
+
+/*  ==================================================
+          COMPANY > ANNOUNCES > BROWSE OFFERS
+    ================================================ */
+.publish .nav-item:hover {
+  border: 1px solid #f6c40d;
+}
+.publish .nav-item.show .nav-link,
+.publish .nav-link.active {
+  border-color: none !important;
+  font-size: 1.25rem;
+  border-radius: 2.56rem;
+  border: 1px solid #f6c40d !important;
+  background-color: #f6c40d !important;
+  padding: 0.8rem 4rem;
+  color: #fff !important;
+  margin-top: 0.6rem;
+}
+.publishBox {
+  height: 100%;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+.nav-tabs .nav-link.active {
+  border-color: none !important;
+}
+
+.publishBox .publish {
+  position: relative;
+  padding-right: 5rem;
+}
+.publishBox .publish .edit_icons {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+.publishBox .publish .edit_icons img {
+  width: 1.5rem;
+}
+.publish-header {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 3rem 0;
+}
+.publish-header-content {
+  width: 100%;
+  padding-left: 8rem;
+}
+
+.publishBox .publish .add_image_icon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.publishBox .publish .add_image_icon img {
+  /* width: 100%;
+  height: 100%; */
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.publish-jobname {
+  font-size: 1.37rem !important;
+  color: #8d8d8d;
+  border-radius: 0.6rem;
+  padding: 2rem 1rem !important;
+  width: 100%;
+}
+.publish-jobname::placeholder {
+  font-size: 1.37rem !important;
+  color: #8d8d8d;
+}
+.publishBox .publish .FieldAndPlaces {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.publish-fieldname {
+  padding: 2rem 1rem !important;
+  border-radius: 2.56rem !important;
+  font-size: 1.37rem !important;
+  flex-basis: 48%;
+  text-align: center;
+  border: 1px solid #2879d9 !important;
+}
+
+.publishBox .publish .startDateandDuration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.publishBox .publish .startDateandDuration .startDate {
+  flex-basis: 48%;
+}
+.publishBox .publish .startDateandDuration .Duration {
+  flex-basis: 48%;
+}
+
+.publishBox
+  .publish
+  .startDateandDuration
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-input:first-child {
+  font-size: 1.37rem;
+  font-weight: bold;
+  color: #454545;
+}
+.publishBox
+  .publish
+  .startDateandDuration
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-input:focus {
+  color: white;
+}
+.publishBox .publish .startDateandDuration .startDate label,
+.publishBox .publish .startDateandDuration .Duration label {
+  font-size: 1.12rem;
+  color: #8d8d8d;
+}
+.publishBox .publish .startDateandDuration .startDate .MuiInputBase-root,
+.publishBox .publish .startDateandDuration .Duration .MuiInputBase-root {
+  border-radius: 2.56rem !important;
+  border: 1px solid #2879d9;
+}
+.publishBox
+  .publish
+  .startDateandDuration
+  .startDate
+  .MuiInputBase-root:focus-within,
+.publishBox
+  .publish
+  .startDateandDuration
+  .Duration
+  .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.publishBox
+  .publish
+  .startDateandDuration
+  .startDate
+  .MuiInputBase-root:focus-within
+  input,
+.publishBox
+  .publish
+  .startDateandDuration
+  .Duration
+  .MuiInputBase-root:focus-within
+  input {
+  color: white;
+}
+.publishBox
+  .publish
+  .startDateandDuration
+  .startDate
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root,
+.publishBox
+  .publish
+  .startDateandDuration
+  .Duration
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.DateRow {
+  padding-top: 8px !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.MuiSlider-markLabel {
+}
+
+/* .publishBox .MuiSlider-root {
+  width: 90% !important;
+} */
+.MuiSlider-root {
+  width: 100% !important;
+}
+
+.publishBox .publish .generalSkills {
+  margin-top: 2rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.GSkillsBox-2 .skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.GeneralSkillsBox
+  .GeneralSkills
+  .GSkillsBox-2
+  .skills
+  .MuiFormControl-fullWidth {
+  width: 18rem;
+}
+.generalSkills-skills {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.publishBox .publish .generalSkills .MuiInputBase-root {
+  border-radius: 50px !important;
+  border: 1px solid #2879d9;
+}
+.publishBox .publish .generalSkills .MuiInputBase-root:focus-within {
+  background-color: #2879d9;
+  color: white;
+  border: none;
+  outline: none;
+}
+.publishBox .publish .generalSkills .MuiInputBase-root:focus-within input {
+  color: white;
+}
+.publishBox
+  .publish
+  .generalSkills
+  .MuiInputBase-root:focus-within
+  .MuiButtonBase-root {
+  color: white;
+}
+.publishBox .publish .generalSkills .MuiSvgIcon-root:focus {
+  color: white;
+}
+.publishBox .publish .description {
+  margin-top: 1.2rem;
+}
+.publishBox .publish .description label {
+  color: #8d8d8d;
+  font-size: 1.37rem;
+}
+.publishBox .publish .description .form-group {
+  margin-bottom: 0px;
+}
+.publishBox .publish .description textarea {
+  border: 1px solid #454545;
+  border-radius: 0.6rem;
+  margin-top: 6px;
+  padding: 0.6rem;
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.publishBox .publish .description textarea::placeholder {
+  color: #8d8d8d;
+}
+textarea.form-control {
+  border: 1px solid #454545;
+  border-radius: 0.6rem;
+  margin-top: 6px;
+  padding: 0.6rem;
+  font-size: 1.37rem;
+  color: #8d8d8d;
+}
+.description .form-check-input {
+  /* margin-top: 7px !important; */
+  height: 1.2rem !important;
+  width: 1.2rem !important;
+  padding: 1.2rem !important;
+  font-size: 1.2rem;
+  margin-right: 0.6rem !important;
+}
+.MuiInputAdornment-root .MuiTypography-body1 {
+  font-size: 1.37rem;
+  font-weight: bold;
+}
+.publishBox .publish .Enregistrer {
+  border-radius: 2.5rem;
+  margin-top: 3rem;
+  display: inline-block;
+  font-size: 1.37rem;
+}
+.publishBox
+  .publish
+  .generalSkills
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-input:first-child {
+  font-size: 1.37rem;
+  font-weight: bold;
+  color: #454545;
+}
+.publishBox
+  .publish
+  .generalSkills
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding-right: 0.7rem;
+  padding-left: 1.12rem;
+}
+/*  ==========================================================
+          COMPANY > ANNOUNCES > BROWSE OFFERS ENDS
+    ======================================================= */
+
+/*Overview of offers section*/
+.OverviewOfOffers {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  /* border-top-left-radius: 41px !important;
+  border-top-right-radius: 41px !important; */
+}
+
+/* offers section whole tabe */
+.AnnoncesViewOffersBox {
+  height: 100%;
+}
+#inlineFormInputGroupUsername2 {
+  border: none !important;
+}
+#inlineFormInputGroupUsername2::placeholder {
+  color: #9aaabf !important;
+}
+/* .AnnoncesViewOffersBox .offers {
+  border: 1px solid rgba(112, 112, 112, 20%);
+  padding: 4%;
+  margin-top: 30px;
+  width: 100%;
+  height: 90%;
+  overflow: auto;
+} */
+.AnnoncesViewOffersBox .offers .tabOffer {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+.AnnoncesViewOffersBox .offers .tabOffer .rightSection {
+  /* padding: 30px;
+  padding-top: 0px; */
+  flex-basis: 75%;
+}
+.AnnoncesViewOffersBox .offers .tabOffer .matches {
+  background-color: #3cbf31;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  padding: 15px 50px;
+  bottom: 0%;
+  right: 0%;
+}
+.AnnoncesViewOffersBox .offers .tabOffer .matches50 {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  padding: 15px 50px;
+  bottom: 0%;
+  right: 0%;
+}
+
+.AnnoncesViewOffersBox .offers .OffersImage {
+  /* width: 150px;
+  height: 150px;
+  margin: 68px auto 0px; */
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AnnoncesViewOffersBox .offers .schoolheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px auto 0px;
+}
+.AnnoncesViewOffersBox .offers .duration {
+  line-height: 21px;
+  margin-top: 15px;
+}
+.AnnoncesViewOffersBox .offers .description {
+  width: 880px;
+  margin-top: 22px;
+}
+.AnnoncesViewOffersBox .offers .edit_icons {
+  position: absolute;
+  right: 31px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.AnnoncesViewOffersBox .offers hr {
+  background-color: #f7c40d;
+  margin: 66px 41px 0px;
+}
+.AnnoncesViewOffersBox .offers .location {
+  margin-top: 8px;
+}
+.AnnoncesViewOffersBox .offers .fa-map-marker {
+  padding-right: 7px;
+  font-size: 18px;
+}
+.AnnoncesViewOffersBox .offers .OfferDomain {
+  padding-top: 0px;
+  padding-left: 10px;
+}
+.AnnoncesViewOffersBox .offers .OfferDecision {
+  padding-top: 20px;
+}
+.AnnoncesViewOffersBox .offers .OfferDomain .col-lg-3,
+.col-lg-4,
+.col-lg-2,
+.col-lg-5 {
+  padding: 0px !important;
+}
+
+/* button label */
+.AnnoncesViewOffersBox .offers .OfferDomain .button .MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  padding-top: 1rem;
+}
+
+.AnnoncesViewOffersBox .offers .OfferDomain .button {
+  color: #2879d9;
+  border: 1px solid #2879d9;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 2.56rem;
+  padding: 0px 2.8rem;
+  font-size: 0.9rem;
+  height: 2.2rem;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 500;
+}
+.AnnoncesViewOffersBox .offers .OfferDecision .button1 {
+  background: #f6c40d;
+  color: #fff;
+  border: 1px solid #f6c40d;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 2.56rem;
+  padding: 0px 2.5rem;
+  font-size: 1.12rem;
+  height: 2.3rem;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.AnnoncesViewOffersBox .offers .OffersImage img {
+  height: 60%;
+}
+.AnnoncesViewOffersBox .offers .OfferDecision .button1:focus {
+  outline: none !important;
+}
+/* view Offers end */
+/*Overview of offers End  section*/
+.header-profile .notification {
+  width: 2rem;
+}
+/*    Company Coaching  start   */
+.company-coaching {
+  height: 95%;
+  width: 100%;
+  padding: 2rem 2.5rem 2rem 0rem;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  gap: 2rem;
+}
+.coaching-heading {
+  font-size: 2.2rem;
+  font-weight: 500;
+  height: auto;
+  color: #454545;
+}
+
+.coaching-cards-container {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.coaching-card {
+  flex-basis: 30%;
+  height: 30rem;
+  max-height: 35rem;
+  position: relative;
+}
+
+.coaching-card-header {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: url("../images/coaching_card.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  /* background-size: cover; */
+
+  /* background-position: center; */
+  align-items: center;
+  padding: 0 1.2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+}
+.coaching-card-overlay {
+  position: absolute; /* Sit on top of the page content */
+  /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.coaching-card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+  z-index: 3;
+}
+
+.coaching-card-body {
+  height: 50%;
+  width: 100%;
+
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.coaching-card-body-1 {
+  background-color: #fca924;
+}
+.coaching-card-body-2 {
+  background-color: #4ed568;
+}
+.coaching-card-body-3 {
+  background-color: #4abef2;
+}
+.coaching-card-description {
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+.coaching-card-content {
+  font-size: 1rem;
+  padding: 0.7rem 0;
+}
+
+.coaching-card-price {
+  font-size: 2.56rem;
+  font-weight: bold;
+}
+
+.coaching-card-btn {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.37rem;
+  background-color: #f6c40d;
+  padding: 0.6rem 3rem;
+  border-radius: 2.56rem;
+  cursor: pointer;
+}
+
+.coaching-card-footer {
+  color: #454545;
+  font-size: 1.56rem;
+  height: 10%;
+  padding: 1.2rem 0;
+  font-weight: 500;
+}
+.coaching-card-footer span {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #454545;
+  cursor: pointer;
+}
+/*    Company Coaching  End   */
+
+/*    Student Offer Match Search     */
+
+.react-multiple-carousel__arrow--right {
+  right: 0 !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0 !important;
+}
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.react-multi-carousel-item--active:nth-child(2) {
+  transform: scale(1.5);
+}
+.slick-current {
+}
+.slick-current + .slick-active {
+  z-index: 11;
+}
+.carosoulProfileBox .genProfile .AddButton {
+  position: absolute;
+  bottom: -5%;
+  background-color: transparent;
+  left: 0%;
+  overflow: visible;
+  right: 0%;
+  z-index: 99999999999999;
+}
+
+#student-custom-card {
+  position: relative;
+}
+
+.carosoulProfileBox .genProfile {
+  height: 100%;
+}
+.carosoulProfileBox .genProfile .multiCarosoul {
+  height: 100%;
+  width: 70vw;
+}
+.student-slider-container {
+  /* height: 80vh; */
+  height: 95%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.7rem;
+  border: 1px solid rgba(112, 112, 112, 20%);
+}
+.student-slider-card {
+}
+.slick-slider {
+  height: 100% !important;
+  width: 100%;
+  /* padding-top: 3rem; */
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-list {
+  height: 100%;
+  width: 94%;
+}
+.slick-track {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slick-slide {
+  height: auto !important;
+  display: flex !important;
+  align-items: center;
+}
+
+/*    Student Offering Card  start   */
+
+.offer-card {
+  /* width: 450px; */
+  height: 33rem;
+  position: relative;
+  z-index: -1;
+  width: 104%;
+  transform: scale(0.9);
+}
+.slick-current + .slick-active .offer-card {
+  z-index: 99999;
+  /* margin-left: -0px;; */
+  transform: scale(1.13, 1.18);
+}
+
+.slick-current + .slick-active .offer-card .offer-card-body {
+  background-color: #2879d9;
+}
+.slick-current + .slick-active .offer-card .offer-card-header {
+  background-color: #fff;
+}
+.slick-current + .slick-active .offer-card .offer-card-wrapper {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.slick-current + .slick-active .offer-card .offer-card-overlay {
+  width: 0 !important;
+  height: 0 !important;
+}
+.offer-card-wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  /* min-height: 25rem; */
+}
+.offer-card-overlay {
+  position: absolute; /* Sit on top of the page content */
+  /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.offer-card-header {
+  height: 55%;
+  width: 100%;
+  /* min-height: 12.5rem; */
+}
+.offer-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.offer-card-body {
+  height: 45%;
+  width: 100%;
+  align-items: flex-start;
+  color: #fff;
+  display: flex;
+  border-radius: 8px !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fca924;
+  padding: 2rem 0.6rem 0px 0.6rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+/* .offer-card-body-1 {
+  background-color: #fca924;
+}
+.offer-card-body-2 {
+  background-color: #4ed568;
+}
+.offer-card-body-3 {
+  background-color: #4abef2;
+} */
+.offer-card-description {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.offer-card-content {
+  font-size: 1.12rem;
+  padding: 1rem 0;
+}
+
+.offer-card-price {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  gap: 0.3rem;
+  width: 100%;
+}
+.offer-card-price-item {
+  font-size: 0.75rem;
+  border: 1px solid #fff;
+  border-radius: 2.56rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.offer-card-btn {
+  height: 10%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  font-size: 1.37rem;
+  margin-top: -2.5rem;
+  z-index: 3;
+  display: inline-block;
+}
+
+.offer-card-footer {
+  color: #454545;
+  font-size: 1.56rem;
+  height: 10%;
+  padding: 1.2rem 0;
+  font-weight: 500;
+}
+.offer-card-footer span {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #454545;
+  cursor: pointer;
+}
+
+.carosoulProfileBox .genProfile .MuiFab-root {
+  width: 5rem;
+  height: 5rem;
+}
+
+/*    Student Offering card End   */
+
+/*================================================================
+=            Student Offering card Detail Page Start             =
+==================================================================*/
+
+/*    Match Result file > heading   */
+.offer-apply-btn {
+  color: #fff;
+  background-color: #f6c40d;
+  padding: 0.6rem 4.3rem;
+  font-size: 1.2rem;
+  border-radius: 2.56rem;
+  font-weight: 500;
+}
+
+/* ================================================
+                  Card Detail Page 
+   ============================================= */
+.offer-detail {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.offer-detail-container {
+  width: 100%;
+  height: 95%;
+  padding: 2.5rem 6rem;
+  overflow-y: auto;
+  border: 1px solid rgba(112, 112, 112, 20%);
+  position: relative;
+}
+.offer-detail-location-icon {
+  font-size: 2rem;
+}
+.student-offer-detail-percentage {
+  display: inline-block;
+  background-color: #3cbf31;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  right: 4px;
+  padding: 1.2rem;
+  font-size: 1.56rem;
+  font-weight: 500;
+}
+
+.offer-detail-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.7rem;
+}
+.offer-detail-header-image {
+  padding-right: 1.2rem;
+  flex-basis: 50%;
+}
+.offer-detail-header-text {
+  flex-basis: 50%;
+  color: #454545;
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+.offer-detail-header-line {
+  padding-left: 3.5rem;
+  border-left: 1px solid #f7c40d;
+}
+.offer-detail-location {
+  flex-basis: 50%;
+  font-size: 1.2rem;
+  padding-right: 2.5rem;
+}
+.offer-detail-header-text2 {
+  padding-left: 2.5rem;
+}
+
+/*    Offer Card Item   */
+.offer-card-item-bordered {
+  border: 1px solid #2879d9;
+  border-radius: 2.56rem;
+  /* color: #2879d9; */
+}
+
+.offer-detail-content-detail {
+  flex-basis: 48%;
+  /* margin: 0px 40px; */
+  padding: 1rem 0.5rem;
+  font-size: 1.37rem;
+}
+
+.offer-detail-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.offer-detail-date-headings {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+
+.offer-detail-date-heading {
+  flex-basis: 25%;
+  margin-right: 2rem;
+  font-size: 1.12rem;
+}
+.offer-detail-date-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 3rem;
+}
+.offer-detail-date {
+  flex-basis: 25%;
+  padding: 1rem 0.5rem;
+  font-size: 1.37rem;
+  font-weight: bold;
+  margin-right: 1.2rem;
+}
+.offer-detail-skills-heading {
+  padding: 1rem 0.5rem;
+  flex-basis: 40%;
+  font-size: 1.37rem;
+  font-weight: bold;
+}
+.offer-detail-skills {
+  background-color: #f6c40d;
+  color: #fff;
+  border-radius: 2.56rem;
+  padding: 0.4rem 0;
+  margin-right: 1.9rem;
+  flex-basis: 20%;
+  font-size: 1.12rem;
+}
+.offer-detail-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.9rem;
+  padding-top: 2.5rem;
+}
+.publish-jobname.form-control {
+  border: 1px solid #454545;
+}
+.sliderBox .slider {
+  width: 25rem;
+  margin-left: 2.7rem;
+}
+.sliderBox {
+  /* padding: 0px 68px; */
+  display: flex;
+}
+.sliderBox .label {
+  font-size: 1.37rem;
+  color: #8d8d8d;
+  width: 15.6rem;
+  padding-top: 0rem;
+  text-align: left;
+}
+
+.sliderBox .slider .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding-top: 9px;
+}
+.sliderBox .slider .MuiSlider-root {
+  color: #f6c40d;
+}
+.sliderBox .slider .MuiSlider-thumb {
+  color: #2879d9;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.sliderBox .slider .MuiSlider-rail {
+  width: 100%;
+  height: 0.5rem !important;
+}
+.sliderBox .slider .MuiSlider-root span:nth-child(5) {
+  left: -8% !important;
+  top: 0rem;
+  color: #454545;
+  font-size: 1.37rem;
+}
+.sliderBox .slider .MuiSlider-root span:nth-child(7) {
+  left: auto !important;
+  top: 0px;
+  right: -9rem !important;
+  color: #454545;
+  font-size: 1.37rem;
+}
+.sliderBox .makeStyles-input-2 {
+  top: 0rem !important;
+}
+.MuiInputBase-root {
+  /* font-size: 22px !important; */
+  /* color: #454545; */
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-input {
+  padding: 0.5rem 4px !important;
+}
+
+.offer-detail-container .makeStyles-input-14 {
+  top: 0rem;
+}
+/*================================================================
+=           Student Offering card Detail Page End           =
+==================================================================*/
+
+/*================================================================
+=           Company Offering card page                      =
+==================================================================*/
+.company-offer-detail {
+  display: flex;
+  justify-content: flex-start;
+}
+.company-offer-detail-content {
+  padding: 0.4rem 2.5rem;
+  margin-right: 1.2rem;
+  color: #2879d9;
+  font-size: 0.9rem;
+}
+
+.overview-offer-item {
+  height: 100%;
+  width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+
+.card-item-cancel-icon {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+/* shehzad css*/
+.formikError {
+  color: red;
+  display: block;
+  margin-top: -1.7rem;
+}
+.formikErrorAuto {
+  color: red;
+  display: block;
+  margin-top: 0rem;
+}
+.formikErrorDate {
+  color: red;
+  display: block;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+.formikErrorDesc {
+  color: red;
+  display: block;
+  margin-top: -0.5rem;
+}
+.info-card img {
+  width: 100%;
+  height: 100%;
+}
+.Professionalcareer .modal-icon .delete_icon {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.diplomaSchool .modal-icon .delete_icon {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .languagesDiv {
+  display: flex;
+  padding: 15px;
+}
+.GeneralSkillsBox .GeneralSkills .GSkillsBox .languagesDiv .t1 {
+  margin-right: 10px;
+}

@@ -1,0 +1,218 @@
+.card-with-image {
+  /* height: 100%; */
+  width: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+  background: #fafafa;
+}
+.card-with-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-with-image-image {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-with-image-location-icon{
+  font-size: 1.5rem;
+}
+
+.card-with-image-image img {
+  width: 100%;
+    height: 100%;
+  object-fit: contain;
+}
+
+.card-with-image-container {
+  flex-basis: 75%;
+  padding: 1.9rem 1rem 2.5rem 1rem;
+}
+.card-with-image .matches {
+  background-color: #3cbf31;
+  color: white;
+  font-size: 1.12rem;
+  font-weight: 600;
+  position: absolute;
+  padding: 0.8rem 1.5rem;
+  bottom: 0%;
+  right: 0%;
+}
+
+.card-with-image .card-with-image-title {
+  font-size: 1.37rem;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* margin: 30px auto 0px; */
+}
+.card-with-image .card-with-image-date {
+  font-size: 1.12rem;
+  font-weight: 500;
+  padding-right: 1.9rem;
+}
+.card-with-image .card-with-image-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-with-image-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.card-with-image-location {
+  margin: 0.6rem 0px;
+  font-size: 0.87rem;
+}
+.card-with-image .fa-map-marker {
+  padding-right: 7px;
+  font-size: 1.12rem;
+}
+
+/* button label */
+.card-with-image .offers .OfferDomain .button .MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  padding-top: 1rem;
+}
+
+.card-with-image .offers .OfferDomain .button {
+  color: #2879d9;
+  border: 1px solid #2879d9;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 2.56rem;
+  padding: 0px 2.9rem;
+  font-size: 0.9rem;
+  height: 2.2rem;
+  /* width: 253px; */
+  text-align: center;
+  font-weight: 500;
+}
+.card-with-image-buttons {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-start;
+}
+
+/*    Card Buttons  */
+.card-with-image-btn {
+  color: #fff;
+  padding: 5px 2.5rem;
+  font-size: 1.12rem;
+  border-radius: 2.56rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-with-image-btn-yellow {
+  background-color: #f6c40d;
+}
+.card-with-image-btn-gray {
+  background-color: #aaaaaa;
+}
+
+.card-with-image-btn-green {
+  background-color: #3cbf31;
+}
+.card-with-image-btn-red {
+  background-color: #e52b2b;
+}
+
+/*    Card Buttons End  */
+
+.card-with-image-calender-container {
+  padding: 0px 1.9rem 1.9rem 1.9rem;
+}
+
+.card-with-image-calender-wrapper {
+  display: flex;
+  width: 100%;
+  padding-bottom: 2.5rem;
+  justify-content: flex-end;
+}
+.card-with-image-calender {
+  flex-basis: 75%;
+}
+
+/*    Calender    */
+
+.card-with-image-calender-heading {
+  color: #454545;
+  font-weight: bold;
+  font-size: 1.37rem;
+  flex-basis: 75%;
+}
+.react-calendar {
+  width: 100% !important;
+  background-color: #2879d9 !important;
+  color: #fff !important;
+  font-size: 1.18rem !important;
+}
+.react-calendar__navigation {
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  margin: 0.6rem 0px !important;
+}
+.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+  color: #fff !important;
+  padding-top: 0.6rem !important;
+}
+.react-calendar__navigation__arrow {
+  color: #fff !important;
+}
+.react-calendar__navigation button {
+  min-width: unset !important;
+}
+.react-calendar__navigation__label {
+  flex-grow: unset !important;
+}
+.react-calendar__month-view__weekdays {
+  margin-bottom: 5px !important;
+}
+.react-calendar__year-view .react-calendar__tile {
+  color: #fff !important;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #454545 !important;
+}
+.react-calendar__month-view__days {
+  border: 2px solid #2879d9;
+}
+.react-calendar__navigation button:enabled:hover {
+  background-color: transparent !important;
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend {
+  /* background-color: white !important; */
+  /* flex-basis: 13% !important; */
+}
+.react-calendar__tile.react-calendar__month-view__days__day {
+  border: 1px solid #2879d9 !important;
+}
+.react-calendar__month-view__days__day {
+  background-color: white !important;
+  color: #454545 !important;
+  /* flex-basis: 13% !important; */
+}
+.react-calendar__tile--active {
+  background-color: #2879d9 !important;
+  color: #fff !important;
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend {
+}
+
+abbr[title] {
+  text-decoration: none !important;
+}
+/* view Offers end */

@@ -1,0 +1,373 @@
+@media screen and (max-width: 1919px) {
+  html {
+    font-size: 90%;
+  }
+ 
+}
+@media screen and (max-width: 1700px) {
+  
+}
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 80%;
+  }
+  /*    Home    */
+  .homeBackground {
+    height: 83vh;
+  }
+  .collapseMenu .card-header {
+    width: 6rem;
+    height: 6rem;
+    top: -40px;
+  }
+  .card-header button i {
+    font-size: 5rem;
+  }
+
+  /*    Student Dashboard   */
+  .dashbordMain .main-coloum {
+    flex-basis: 5.5%;
+  }
+  .main-column-2 {
+    flex-basis: 94%;
+  }
+  .dashbordMain .main-coloum img {
+    width: 4rem;
+  }
+  /* .dashbord .dashbordLayout {
+    flex-basis: 83%;
+    padding: 1% 2% 0% 4%;
+  } */
+  .dashbord .dashbordLayout {
+    flex-basis: 84%;
+    height: 100%;
+    padding: 1rem 1.6rem 0% 2rem;
+  }
+  .dashbord .dashbord-column {
+    flex-basis: 16%;
+  }
+  .genProfileBox {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  /*  Custom box  */
+  .custom-box {
+    padding: 2rem 1.5rem 1.5rem 2rem;
+    margin-top: 1.5rem;
+    width: 97%;
+  }
+  .ProfessionalcareerBox .Professionalcareer {
+    width: 97%;
+    height: 93%;
+    margin-top: 1.5rem;
+  }
+  .ResearchBox .MuiInputBase-input {
+    height: 0.7rem !important;
+  }
+
+  /*    Student Slider Cards    */
+  .offer-card-body {
+    padding: 1.3rem 0.6rem 0px 0.6rem;
+  }
+  .carosoulProfileBox .genProfile .multiCarosoul {
+    width: 75vw;
+  }
+  /*  ===================================================
+                  Studnet Section End
+    ================================================= */
+
+  /*  ===================================================
+                Company Section
+    ================================================= */
+
+  /*      Company Coaching Card   */
+  .company-coaching {
+    height: 100%;
+    width: 95%;
+    padding: 2rem 1.2rem;
+  }
+  .coaching-card-price {
+    padding-bottom: 10px;
+}
+  .coaching-card-header {
+    height: 54%;
+  }
+  .coaching-card-body {
+    height: 46%;
+  }
+  /*      Company Coaching Card End   */
+
+  /*      Student Professional Modal    */
+  .professional-modal-first{
+    padding-right: 2rem;
+  }
+  .professional-modal-second{
+    padding-right: 2rem;
+  }
+   
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 70%;
+  }
+  .offer-card {
+    height: 28rem;
+  }
+  .offer-card-description {
+    font-size: 1.3rem;
+  }
+  .offer-card-content {
+    font-size: 1rem;
+    padding: 0.2rem 0 1rem 0;
+  }
+  .offer-card-body {
+    padding: 1.3rem 0.6rem 0px 0.6rem;
+  }
+  .slick-track {
+    padding-bottom: 2rem;
+  }
+  .company-coaching {
+    height: 96%;
+    padding: 1rem 2rem 0.5rem 0rem;
+    gap: 2rem;
+  }
+
+.sliderBox .slider .MuiSlider-root span:nth-child(7) {
+  top: 0.3rem;
+}
+.sliderBox .slider .MuiSlider-root span:nth-child(5) {
+  top: 0.3rem;
+}
+.sliderBox .label {
+  padding-top: 0.3rem;
+}
+.offer-detail-container .makeStyles-input-14 {
+  top: 0rem;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+  .homeNavBar .navbar-nav {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .homeNavBar .navbar-collapse{
+    background-color: #fff;
+    padding-bottom: 2rem;
+  }
+  .generalInformation .search_bar {
+    height: 5rem;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  
+  .generalInformation {
+    height: auto;
+    padding-top: 1.5rem;
+}
+.upper-nav.nav.nav-tabs {
+  height: auto;
+  padding: 1.5rem;
+}
+.sliderBox .makeStyles-input-2 {
+  top: 0.7rem !important;
+}
+.sliderBox .slider .MuiSlider-root span:nth-child(7) {
+  top: 1.4rem;
+}
+.sliderBox .slider .MuiSlider-root span:nth-child(5) {
+  top: 1.9rem;
+}
+.sliderBox .label {
+  padding-top: 1.9rem;
+}
+.offer-detail-container .makeStyles-input-14 {
+  top: 0.7rem;
+}
+.company-coaching {
+  gap: 3rem;
+}
+}
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+  .ResearchBox .checkBoxes .alternationRhythm {
+    padding-left: 1rem;
+  }
+  .ResearchBox .jobIsProvided {
+    padding-top: 2rem;
+    padding-left: 0rem;
+  }
+  .company-coaching {
+    height: 100%;
+    width: 97%;
+    padding: 2rem 1.2rem;
+  }
+ 
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .homeNavBar .navbar-left .upload_cv {
+    padding: 0px;
+  }
+  .homeNavBar .navbar-center {
+    padding: 10px 0px 0px;
+  }
+  .homeNavBar .navbar-center .btn-primary {
+    padding: 6px 0px !important;
+    font-size: 16px;
+    width: 163px;
+  }
+  .homeNavBar .navbar-left .nav-link {
+    font-size: 17px;
+  }
+  .homeNavBar .navbar-right .nav-link {
+    font-size: 13px;
+    width: 82px;
+    border-left: none;
+    padding: 0px;
+  }
+  .homeNavBar .navbar-brand img {
+    width: 120px;
+  }
+  .homeNavBar .navbar-right {
+    margin-left: 0px;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .homeBackground {
+    background-size: contain;
+  }
+  .homeBackground .container {
+    padding: 10px;
+  }
+  .homeBackground .container h1 {
+    font-size: 25px;
+  }
+  .homeBackground .container p {
+    font-size: 18px;
+  }
+  .homeBackground .post_icons {
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin: 20px auto 0px;
+    width: 260px;
+    border: 1px solid #454545;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .homeNavBar .navbar-left .upload_cv {
+    padding: 0px;
+  }
+  .homeNavBar .navbar-center {
+    padding: 10px 0px 0px;
+  }
+  .homeNavBar .navbar-center .btn-primary {
+    padding: 6px 0px !important;
+    font-size: 16px;
+    width: 163px;
+  }
+  .homeNavBar .navbar-left .nav-link {
+    font-size: 17px;
+  }
+  .homeNavBar .navbar-right .nav-link {
+    font-size: 13px;
+    width: 82px;
+    border-left: none;
+    padding: 0px;
+  }
+  .homeNavBar .navbar-brand img {
+    width: 120px;
+  }
+  .homeNavBar .navbar-right {
+    margin-left: 0px;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .homeBackground {
+    background-size: contain;
+  }
+  .homeBackground .container {
+    padding: 10px;
+  }
+  .homeBackground .container h1 {
+    font-size: 25px;
+  }
+  .homeBackground .container p {
+    font-size: 18px;
+  }
+  .homeBackground .post_icons {
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin: 20px auto 0px;
+    width: 260px;
+    border: 1px solid #454545;
+  }
+  .homeBackground .post_mobile-view .col-lg-2 {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  .importCV {
+    top: 34%;
+    right: 28%;
+}
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+  .importCV {
+    top: 38%;
+    right: 24%;
+}
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .importCV {
+    top: 45%;
+    right: 24%;
+}
+}
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .importCV { 
+    top: 90px; 
+    right: 31%;
+}
+}
+/* @media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) and (max-width: 1365px) {
+}
+@media (min-width: 1366px) and (max-width: 1400px) {
+}
+@media (min-width: 1401px) and (max-width: 1440px) {
+}
+@media (min-width: 1441px) and (max-width: 1600px) {
+}
+@media (min-width: 1601px) and (max-width: 1680px) {
+}
+@media (min-width: 1681px) and (max-width: 1919px) {
+}
+@media (min-width: 1801px) and (max-width: 1900px) {
+  
+} */

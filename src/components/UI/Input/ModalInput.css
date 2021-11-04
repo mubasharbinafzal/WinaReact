@@ -1,0 +1,23 @@
+.modal-input{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.modal-input input{
+    width: 100%;
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #F7C40D;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.modal-input input::placeholder{
+    color: #9A9A9A
+}
+
+.modal-input input:focus,
+.modal-input input:hover{
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #F7C40D;
+    font-size: 1.2rem;
+}
